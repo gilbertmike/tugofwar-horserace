@@ -1,7 +1,7 @@
 import numpy as np
 
 class TugOfWar:
-    def __init__(self, quality_1, quality_2, thres):
+    def __init__(self, quality_1: float, quality_2: float, thres: int):
         """Creates a new simulation instance with two options with qualities
         `quality_1` and `quality_2`. Decision is made when threshold `thres`
         is reached.
